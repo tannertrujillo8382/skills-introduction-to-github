@@ -1,0 +1,24 @@
+#A. Print the following statements using multiple print() statements
+print("All the world's a stage,")
+print("And all the men and women merely players:")
+print("They have their exits and their entrances;")
+print("And one man in his time plays many parts,")
+print("His acts being seven ages.")
+
+#B. Print the above statements using a single print() statement
+
+print("All the world's a stage,",
+      "And all the men and women merely players:",
+      "They have their exits and their entrances;",
+      "And one man in his time plays many parts,",
+      "His acts being seven ages.", sep="\n")
+#C. Without coding, what is the output of the following statement: print("127","0","0","1",sep=".")
+#I asumme 127.0.0.1 since sep just tells the system to seperate with sep=("whatever you want")
+
+#D. Identify a situation where you have to print data with flush=True and flush=False.
+# flush=True you would use if the system or program you are coding isn't showing a result fast enough so your telling python to send it out faster. and flush=False is the default system and tells python to load and take its time
+
+#E. By default, the flush is disabled but print() output behaves like flush=True. Which argument triggers the flush?
+# flush=True
+
+#One challenge I faced during this exercise was understanding how to print multiple lines using a single print() statement. I wasn’t familiar with the \n newline character before, so I had to look up how it works and practice using it. Once I understood it, the exercise became much easier.
